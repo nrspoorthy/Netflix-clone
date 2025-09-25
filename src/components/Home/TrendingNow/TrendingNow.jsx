@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
-import './Trendingnow.css';
+import "./TrendingNow.css";
 import TrendingNowDetails from './TrendingNowDetails';
 
 const TrendingNow = () => {
