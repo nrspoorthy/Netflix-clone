@@ -28,7 +28,7 @@ const LoginPage = () => {
 
      localStorage.setItem("username", inputValue); 
      localStorage.setItem("password", password); 
-    navigate('/', { replace: true })
+    navigate('/home', { replace: true })
   }
   const onSubmitFailure = errorMsg => {
     setShowSubmitError(true)
